@@ -1,0 +1,11 @@
+/*
+Theme Name:Twenty Thirteen Child
+Theme URI: http://52.87.173.86//
+Description: Child theme for the Twenty Thirteen theme
+Author: Your name here
+Author URI: http://example.com/about/
+Template:  twentythirteen
+Version: 0.1.0
+*/
+
+@import url("../twentyfourteen/style.css");
