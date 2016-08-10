@@ -1,11 +1,26 @@
 <?php
 // custom admin login logo
+/* Fusion/digitalnature */
+
+/* Add the logo code here */
+
 function custom_login_logo() {
 	echo '<style type="text/css">
-	h1 a { background-image: url('.get_bloginfo('template_directory').'/images/custom-login-logo.png) !important; }
+	h1 a { background-image: url(http://52.87.173.86/wp-content/uploads/2016/08/microland.png) !important; }
 	</style>';
 }
 add_action('login_head', 'custom_login_logo');
+
+/* end logo code */
+
+function init_language(){
+	if (class_exists('xili_language')) {
+		define('THEME_TEXTDOMAIN','fusion');
+		define('THEME_LANGS_FOLDER','/lang');
+	} else {
+	   load_theme_textdomain('fusion', get_template_directory() . '/lang');
+	}
+}
 
 /**
  * Main WordPress API
@@ -80,7 +95,7 @@ function current_time( $type, $gmt = 0 ) {
 /**
  * Retrieve the date in localized format, based on timestamp.
  *
- * If the locale specifies the locale month and weekday, then the locale will
+ * If the locale specifies the locale month init weekday, then the locale will
  * take over the format for the date. If it isn't, then the date format string
  * will be used instead.
  *
