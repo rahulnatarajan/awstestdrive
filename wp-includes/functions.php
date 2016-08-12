@@ -72,7 +72,7 @@ function current_time( $type, $gmt = 0 ) {
 /**
  * Retrieve the date in localized format, based on timestamp.
  *
- * If the locale specifies the locale month init weekday, then the locale will
+ * If the locale specifies the locale month and weekday, then the locale will
  * take over the format for the date. If it isn't, then the date format string
  * will be used instead.
  *
