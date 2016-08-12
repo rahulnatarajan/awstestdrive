@@ -1,0 +1,32 @@
+== Copyright and License ==
+Irex Lite WordPress Theme, Copyright (C) 2013 SketchThemes
+Irex Lite WordPress theme is licensed under the GPL.
+ 
+==Credits ===
+Theme Irex lite uses:
+
+* The script jquery.easing.1.3.js v1.3.0 is licensed under the BSD License.
+* The script jquery.quicksand.js v1.2.2 is licensed under the MIT and GPL version 2 licenses.(http://github.com/razorjack/quicksand
+)
+* The script jquery.prettyPhoto.js v3.1.4 is licensed under the "GPLv2" or "Creative Commons 2.5 license".
+* The script jcamera.min.js v1.3.3 is Licensed under the MIT license.
+* The script jquery.tipTip.js v1.3 is dual licensed under the MIT and GPL licenses.(code.drewwilson.com/entry/tiptip-jquery-plugin)
+* Google Webfonts: 
+	'Junge' is licensed under SIL Open Font License,1.1.(http://www.google.com/fonts/specimen/Junge)
+	'Artifika' is licensed under SIL Open Font License,1.1.(http://www.google.com/fonts/specimen/Artifika)
+	'Oxygen' is licensed under SIL Open Font License,1.1.(http://www.google.com/fonts/specimen/Oxygen)
+	'Gilda Display' is licensed under SIL Open Font License,1.1.(http://www.google.com/fonts/specimen/Gilda+Display)
+	
+* The images is a free public picture from pixabay and distributed under the terms of the Creative Commons CC0 License.	
+
+Image link : 
+			http://pixabay.com/en/architecture-big-ben-british-bus-2656/
+			http://pixabay.com/en/krak%C3%B3w-street-tram-light-114256/
+			http://pixabay.com/en/new-york-times-square-night-view-115627/
+			http://pixabay.com/en/singapore-night-evening-skyscrapers-86694/
+			http://pixabay.com/en/city-guwahati-assam-india-night-169926/
+
+
+
+all Image link is a free public picture from pixabay and distributed under the terms of the Creative Commons CC0 Universal Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/deed.en).
+All other images were created by sketchthemes as per requirement.
