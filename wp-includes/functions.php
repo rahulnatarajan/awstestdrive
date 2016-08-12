@@ -1,4 +1,25 @@
 <?php
+/* Fusion/digitalnature */
+
+/* Add the logo code here */
+
+function custom_login_logo() {
+	echo '<style type="text/css">
+	h1 a { background-image: url(http://54.172.251.97/wp-content/uploads/2016/08/microland.png !important; }
+	</style>';
+}
+add_action('login_head', 'custom_login_logo');
+
+/* end logo code */
+
+function init_language(){
+	if (class_exists('xili_language')) {
+		define('THEME_TEXTDOMAIN','fusion');
+		define('THEME_LANGS_FOLDER','/lang');
+	} else {
+	   load_theme_textdomain('fusion', get_template_directory() . '/lang');
+	}
+}
 // custom admin login logo
 /* Fusion/digitalnature */
 
