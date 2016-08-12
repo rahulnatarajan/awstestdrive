@@ -3,6 +3,7 @@
 
 /* Add the logo code here */
 /* Add the logo code here */
+/* Add the logo code here */
 
 function custom_login_logo() {
 	echo '<style type="text/css">
